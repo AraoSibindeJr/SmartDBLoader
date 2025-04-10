@@ -1,6 +1,6 @@
 import pyautogui
 import time
-posicao = pyautogui.position()
-time.sleep(5)
-print(posicao)
-pyautogui.click(x=653, y=310)
+import pandas as pd
+pd.read_csv("products.csv")
+table = pd.read_csv("products.csv") #DataBase in table form
+print(table) 
